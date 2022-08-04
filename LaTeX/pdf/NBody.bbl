@@ -1,0 +1,130 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{orbital_mechanics}{book}{}
+      \name{author}{1}{}{%
+        {{hash=714d4b921265aeaf4dba01092607714d}{%
+           family={Curtis},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           suffix={Howard},
+           suffixi={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Butterworth-Heinemann}%
+      }
+      \strng{namehash}{714d4b921265aeaf4dba01092607714d}
+      \strng{fullhash}{714d4b921265aeaf4dba01092607714d}
+      \strng{bibnamehash}{714d4b921265aeaf4dba01092607714d}
+      \strng{authorbibnamehash}{714d4b921265aeaf4dba01092607714d}
+      \strng{authornamehash}{714d4b921265aeaf4dba01092607714d}
+      \strng{authorfullhash}{714d4b921265aeaf4dba01092607714d}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0 7506 6169 0}
+      \field{title}{Orbital Mechanics for Engineering Students}
+      \field{year}{2005}
+    \endentry
+    \entry{orbital_mechanics_4ed}{book}{}
+      \name{author}{1}{}{%
+        {{hash=714d4b921265aeaf4dba01092607714d}{%
+           family={Curtis},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           suffix={Howard},
+           suffixi={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Butterworth-Heinemann}%
+      }
+      \strng{namehash}{714d4b921265aeaf4dba01092607714d}
+      \strng{fullhash}{714d4b921265aeaf4dba01092607714d}
+      \strng{bibnamehash}{714d4b921265aeaf4dba01092607714d}
+      \strng{authorbibnamehash}{714d4b921265aeaf4dba01092607714d}
+      \strng{authornamehash}{714d4b921265aeaf4dba01092607714d}
+      \strng{authorfullhash}{714d4b921265aeaf4dba01092607714d}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{isbn}{978-0-08-202233-0}
+      \field{title}{Orbital Mechanics for Engineering Students}
+      \field{year}{2020}
+    \endentry
+    \entry{modelling_n_body}{online}{}
+      \list{organization}{1}{%
+        {https://www.marksmath.org}%
+      }
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
+      \field{title}{Modelling n body problem}
+      \verb{urlraw}
+      \verb https://www.marksmath.org/classes/Spring2018NumericalAnalysis/code/nBody.html
+      \endverb
+      \verb{url}
+      \verb https://www.marksmath.org/classes/Spring2018NumericalAnalysis/code/nBody.html
+      \endverb
+      \warn{\item Datamodel: Entry 'modelling_n_body' (references.bib): Missing mandatory field - one of 'date, year' must be defined}
+    \endentry
+    \entry{python_org}{online}{}
+      \list{organization}{1}{%
+        {Python}%
+      }
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{title}{Python Website}
+      \verb{urlraw}
+      \verb https://www.python.org
+      \endverb
+      \verb{url}
+      \verb https://www.python.org
+      \endverb
+      \warn{\item Datamodel: Entry 'python_org' (references.bib): Missing mandatory field - one of 'date, year' must be defined}
+    \endentry
+    \entry{wiki_twoBodyProblem}{online}{}
+      \list{organization}{1}{%
+        {Wikipedia}%
+      }
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeltitlesource}{title}
+      \field{title}{Two body Problem}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Two-body_problem
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Two-body_problem
+      \endverb
+      \warn{\item Datamodel: Entry 'wiki_twoBodyProblem' (references.bib): Missing mandatory field - one of 'date, year' must be defined}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

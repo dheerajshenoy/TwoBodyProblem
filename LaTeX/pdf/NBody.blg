@@ -1,0 +1,22 @@
+[1] Config.pm:307> INFO - This is Biber 2.17
+[1] Config.pm:310> INFO - Logfile is 'pdf/NBody.blg'
+[299] biber:340> INFO - === Tue Jul 26, 2022, 20:39:14
+[351] Biber.pm:418> INFO - Reading 'pdf/NBody.bcf'
+[630] Biber.pm:972> INFO - Found 5 citekeys in bib section 0
+[688] Biber.pm:4383> INFO - Processing section 0
+[727] Biber.pm:4574> INFO - Looking for bibtex file 'references.bib' for section 0
+[729] bibtex.pm:1713> INFO - LaTeX decoding ...
+[745] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
+[930] Biber.pm:1663> INFO - Datamodel validation starting
+[934] Biber.pm:1712> INFO - Datamodel validation complete
+[989] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[990] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[990] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[990] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[1019] bbl.pm:654> INFO - Writing 'pdf/NBody.bbl' with encoding 'UTF-8'
+[1026] bbl.pm:757> INFO - Output to pdf/NBody.bbl
+[1027] Biber.pm:130> WARN - ISBN '978-0-08-202233-0' in entry 'orbital_mechanics_4ed' is invalid - run biber with '--validate_datamodel' for details.
+[1027] Biber.pm:130> WARN - Datamodel: Entry 'python_org' (references.bib): Missing mandatory field - one of 'date, year' must be defined
+[1027] Biber.pm:130> WARN - Datamodel: Entry 'wiki_twoBodyProblem' (references.bib): Missing mandatory field - one of 'date, year' must be defined
+[1028] Biber.pm:130> WARN - Datamodel: Entry 'modelling_n_body' (references.bib): Missing mandatory field - one of 'date, year' must be defined
+[1028] Biber.pm:132> INFO - WARNINGS: 4
