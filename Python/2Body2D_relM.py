@@ -8,21 +8,20 @@ from matplotlib.animation import FuncAnimation
 G = 6.67259e-20  # (km**3/kg/s**2)
 
 # time array
-time = np.arange(0, 100, 0.4)
+time = np.arange(0, 480, 0.2)
 
 fig, ax = plt.subplots(1, 1)
 
-
-m1 = 1000  # mass (kg)
+m1 = 1e26  # mass (kg)
 r10 = np.array([1000, 0])  # initial position (km)
-v10 = np.array([45, 45])  # initial velocity (km/s)
+v10 = np.array([100, 45])  # initial velocity (km/s)
 radius1 = 25
 
 # body m2 initial conditions
 m2 = 1e26  # mass (kg)
 r20 = np.array([0, 0])  # initial position (km)
 #v20 = np.array([-30, -20])  # initial velocity (km/s)
-v20 = np.array([0, 0])  # initial velocity (km/s)
+v20 = np.array([-40, 40])  # initial velocity (km/s)
 radius2 = 25
 
 ax.set_xlim(-2000, 2000)

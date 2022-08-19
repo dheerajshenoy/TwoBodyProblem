@@ -1,7 +1,0 @@
-# Fdb version 3
-["pdflatex"] 0 "abstract.tex" "pdf/abstract.pdf" "abstract" 0
-  "abstract.tex" 0 -1 0 ""
-  "pdf/abstract.aux" 1658674734 32 3985256e7290058c681f74d7a3565a19 ""
-  (generated)
-  "pdf/abstract.log"
-  "pdf/abstract.pdf"

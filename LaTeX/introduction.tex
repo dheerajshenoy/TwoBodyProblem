@@ -18,17 +18,25 @@
     F = \frac{G M m}{R^2}
 \end{equation}
 
-\paragraph{Where $G$ is the Universal gravitational constant, having the value of
-$\SI{6.674e-11}{\newton \metre^2 \per \kg ^2}$}
+\paragraph{
+    Where $G$ is the Universal gravitational constant, having the value of
+    $\SI{6.674e-11}{\newton \metre^2 \per \kg ^2}$
+}
 
-\paragraph{In vector form, this equation will be}
+\paragraph{
+    In vector form, this equation will be
+}
 
 \begin{equation}
     \vec{F} = \frac{G M m}{\vec{\abs{R}}^{\, 2}} \hat{R}
 \end{equation}
 
-\paragraph{Where R is the radius vector from mass $M$ to mass $m$}
-\paragraph{Therefore, the gravitational force between masses $m_1$ and $m_2$ is}
+\paragraph{
+    Where R is the radius vector from mass $M$ to mass $m$
+}
+\paragraph{
+    Therefore, the gravitational force between masses $m_1$ and $m_2$ is
+}
 
 \begin{equation}\label{force_eqn}
 \begin{split}
@@ -37,9 +45,13 @@ $\SI{6.674e-11}{\newton \metre^2 \per \kg ^2}$}
 \end{split}
 \end{equation}
 
-\paragraph{where $r_{12}$ is the vector from $m_1$ to $m_2$, and $\hat{r_{12}}$ is the unit vector in it's direction.}
+\paragraph{
+    where $r_{12}$ is the vector from $m_1$ to $m_2$, and $\hat{r_{12}}$ is the unit vector in it's direction.
+}
 
-\paragraph{Using Newton's second law of motion, $\vec F=m \vec a$, we can calculate the acceleration of a body. Let $\vec F_{12}$ be the force on mass $m_1$ by $m_2$, then the acceleration of mass $m_1$ will be,}
+\paragraph{
+    Using Newton's second law of motion, $\vec F=m \vec a$, we can calculate the acceleration of a body. Let $\vec F_{12}$ be the force on mass $m_1$ by $m_2$, then the acceleration of mass $m_1$ will be,
+}
 
 \begin{equation}
 \begin{split}
@@ -55,8 +67,18 @@ $\SI{6.674e-11}{\newton \metre^2 \per \kg ^2}$}
 \end{split}
 \end{equation}
 
-\paragraph{Integrating equation \ref{displacement_eqn} twice using suitable numerical integration method, we can determine the position $x(t)$ of mass $m_1$. Similar calculation can be done to find $x(t)$ of $m_2$. }
+\paragraph{
+    Integrating equation (\ref{displacement_eqn}) twice using suitable numerical integration method, we can determine the position $x(t)$ of mass $m_1$. Similar calculation can be done to find $x(t)$ of $m_2$.
+}
 
-\paragraph{We make use of algorithm 2.1 mentioned in \textcite{orbital_mechanics_4ed} to compute the motion of two bodies in an inertial frame of reference. We use \textcite{python_org} programming language to compute and plot the results using the algorithm mentioned above.}
+\paragraph{
+    We make use of algorithm 2.1 mentioned in \citetitle{orbital_mechanics_4ed} to compute the motion of two bodies in an inertial frame of reference. We use python programming language to compute and plot the results using the algorithm mentioned above.
+}
 
-\paragraph{Now we start simulating the two body problem for various initial conditions of position, velocity and mass.}
+\paragraph{
+    The python code for the simulation makes use of Numpy, Scipy \& Matplotlib libraries. There are 2 versions of the code, one where the motion of the bodies are with respect to an inertial frame of reference, and the other where the motion is with respect to one of the body
+}
+
+\paragraph{
+    Now we start simulating the two body problem for various initial conditions of position, velocity and mass.
+}

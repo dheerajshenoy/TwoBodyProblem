@@ -10,19 +10,19 @@ from matplotlib.animation import FuncAnimation
 G = 6.67259e-20  # (km**3/kg/s**2)
 
 # time array
-time = np.arange(0, 100, 0.4)
+time = np.arange(0, 480, 0.2)
 
 # body m1 initial conditions
 m1 = 1e26  # mass (kg)
-r10 = np.array([0, 0])  # initial position (km)
-v10 = np.array([0, 0])  # initial velocity (km/s)
+r10 = np.array([1000, 0])  # initial position (km)
+v10 = np.array([100, 45])  # initial velocity (km/s)
 radius1 = 25
 
 # body m2 initial conditions
 m2 = 1e26  # mass (kg)
-r20 = np.array([1000, 1000])  # initial position (km)
+r20 = np.array([0, 0])  # initial position (km)
 #v20 = np.array([-30, -20])  # initial velocity (km/s)
-v20 = np.array([-30, 10])  # initial velocity (km/s)
+v20 = np.array([-40, 40])  # initial velocity (km/s)
 radius2 = 25
 
 fig, ax = plt.subplots(1, 1)
@@ -31,8 +31,8 @@ fig, ax = plt.subplots(1, 1)
 #  VX1 (4), VY1 (5), VX2 (6), VY2 (7)]
 y0 = np.concatenate((r10, r20, v10, v20))
 
-ax.set_xlim(-500, 1500)
-ax.set_ylim(-500, 1500)
+ax.set_xlim(-2000, 2000)
+ax.set_ylim(-2000, 2000)
 
 ax.set_aspect('equal')
 
@@ -54,13 +54,9 @@ y = odeint(two_body_eqm, y0, time, args=(G, m1, m2))
 
 xdata1 = []
 ydata1 = []
-vxdata1 = []
-vydata1 = []
 
 xdata2 = []
 ydata2 = []
-vxdata2 = []
-vydata2 = []
 
 g_xdata = []
 g_ydata = []
@@ -72,13 +68,9 @@ for ys in y:
 
     xdata1.append(Y1[0])
     ydata1.append(Y1[1])
-    vxdata1.append(Y3[0])
-    vydata1.append(Y3[1])
 
     xdata2.append(Y2[0])
     ydata2.append(Y2[1])
-    vxdata2.append(Y3[2])
-    vydata2.append(Y3[3])
 
 line1, = ax.plot([], [], lw=1, color='red', alpha=0.75)
 point1 = plt.Circle((0, 0), radius=radius1, color='red', label = f"m1 = {m1} (kg)")
@@ -86,7 +78,7 @@ point1 = plt.Circle((0, 0), radius=radius1, color='red', label = f"m1 = {m1} (kg
 line2, = ax.plot([], [], lw=1, color='blue', alpha=0.75)
 point2 = plt.Circle((0, 0), radius=radius2, color='blue', label = f"m2 = {m2} (kg)")
 
-gline, = ax.plot([], [], lw=1, color='green', alpha=0.75)
+gline, = ax.plot([], [], lw=1, color='green', alpha=1)
 gpoint = plt.Circle((0, 0), radius=10, color='green')
 ax.add_artist(gpoint)
 
