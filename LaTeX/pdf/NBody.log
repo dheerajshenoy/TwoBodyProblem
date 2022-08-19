@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.7.14)  19 AUG 2022 08:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.7.14)  19 AUG 2022 23:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -277,7 +277,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'ieee.dbx' not found.
+Package biblatex Info: ... file 'science.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count331
@@ -387,11 +387,11 @@ File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
 \biburllcskip=\muskip21
 \c@smartand=\count407
 )
-Package biblatex Info: Trying to load bibliography style 'ieee'...
-Package biblatex Info: ... file 'ieee.bbx' found.
+Package biblatex Info: Trying to load bibliography style 'science'...
+Package biblatex Info: ... file 'science.bbx' found.
 
-(/usr/share/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
-File: ieee.bbx 2021/12/06 v1.3f biblatex bibliography style
+(/usr/share/texmf-dist/tex/latex/biblatex-science/science.bbx
+File: science.bbx 2018/10/18 v1.2 biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
@@ -410,11 +410,11 @@ File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count408
 \c@bbx:relatedtotal=\count409
 ))))
-Package biblatex Info: Trying to load citation style 'ieee'...
-Package biblatex Info: ... file 'ieee.cbx' found.
+Package biblatex Info: Trying to load citation style 'science'...
+Package biblatex Info: ... file 'science.cbx' found.
 
-(/usr/share/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
-File: ieee.cbx 2021/12/06 v1.3f biblatex citation style
+(/usr/share/texmf-dist/tex/latex/biblatex-science/science.cbx
+File: science.cbx 2018/10/18 v1.2 biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
@@ -435,11 +435,7 @@ Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\cites'.
-)
+))
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
@@ -459,27 +455,35 @@ Package: xparse 2022-01-12 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 )))
+
+Package geometry Warning: Over-specification in `v'-direction.
+    `height' (578.15999pt) is ignored.
+
 \@quotelevel=\count414
 \@quotereset=\count415
-
-(pdf/NBody.aux)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 8
+.
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) (pdf/NBody.aux)
 \openout1 = `NBody.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
- (/usr/share/texmf-dist/tex/latex/graphics/color.sty
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
 
 (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -518,11 +522,11 @@ e
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(81.94394pt, 433.62pt, 81.94394pt)
-* v-part:(T,H,B)=(56.9055pt, 578.15999pt, 209.98135pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=433.62pt
-* \textheight=578.15999pt
+* \textheight=731.23584pt
 * \oddsidemargin=9.67395pt
 * \evensidemargin=9.67395pt
 * \topmargin=-52.36449pt
@@ -556,8 +560,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'NBody.bbl' found.
  (pdf/NBody.bbl)
-Package biblatex Info: Reference section=0 on input line 6.
-Package biblatex Info: Reference segment=0 on input line 6.
+Package biblatex Info: Reference section=0 on input line 8.
+Package biblatex Info: Reference segment=0 on input line 8.
 
 (./titlepage.tex [1
 
@@ -566,39 +570,78 @@ Package biblatex Info: Reference segment=0 on input line 6.
 \tf@toc=\write4
 \openout4 = `NBody.toc'.
 
- [1] (./abstract.tex) (./introduction.tex
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
+ [1] (./acknowledgement.tex) (./abstract.tex [2])
+(./introduction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
 
-Overfull \hbox (0.84781pt too wide) in paragraph at lines 26--26
-  \OT1/cmr/bx/n/10 Where $\OML/cmm/m/it/10 G$ \OT1/cmr/bx/n/10 is the Uni-ver-s
-al grav-i-ta-tional con-stant, hav-ing the value of $\OT1/cmr/m/n/10 6\OML/cmm/
-m/it/10 :\OT1/cmr/m/n/10 674 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 10[] [][]\OML
-/cmm/m/it/10 =[][]$
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
  []
 
-[2]) (./results.tex [3]
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+) (./results.tex [3]
 <./Images//fig1.png, id=23, 576.7146pt x 490.7133pt>
 File: ./Images//fig1.png Graphic file (type png)
 <use ./Images//fig1.png>
-Package pdftex.def Info: ./Images//fig1.png  used on input line 13.
+Package pdftex.def Info: ./Images//fig1.png  used on input line 12.
 (pdftex.def)             Requested size: 346.89731pt x 295.17902pt.
  [4 <./Images//fig1.png>]
-<./Images//fig2.png, id=29, 462.528pt x 346.896pt>
+<./Images//fig5.png, id=30, 462.528pt x 346.896pt>
+File: ./Images//fig5.png Graphic file (type png)
+<use ./Images//fig5.png>
+Package pdftex.def Info: ./Images//fig5.png  used on input line 24.
+(pdftex.def)             Requested size: 346.89731pt x 260.18723pt.
+<./Images//fig6.png, id=31, 482.7636pt x 484.9317pt>
+File: ./Images//fig6.png Graphic file (type png)
+<use ./Images//fig6.png>
+Package pdftex.def Info: ./Images//fig6.png  used on input line 31.
+(pdftex.def)             Requested size: 303.53267pt x 304.90182pt.
+ [5 <./Images//fig5.png> <./Images//fig6.png>]
+<./Images//fig2.png, id=37, 462.528pt x 346.896pt>
 File: ./Images//fig2.png Graphic file (type png)
 <use ./Images//fig2.png>
-Package pdftex.def Info: ./Images//fig2.png  used on input line 23.
+Package pdftex.def Info: ./Images//fig2.png  used on input line 39.
 (pdftex.def)             Requested size: 346.89731pt x 260.18723pt.
- [5 <./Images//fig2.png>]
-<./Images//fig3.png, id=34, 462.528pt x 346.896pt>
+<./Images//fig7.png, id=38, 462.528pt x 346.896pt>
+File: ./Images//fig7.png Graphic file (type png)
+<use ./Images//fig7.png>
+Package pdftex.def Info: ./Images//fig7.png  used on input line 46.
+(pdftex.def)             Requested size: 346.89731pt x 260.18723pt.
+ [6 <./Images//fig2.png> <./Images//fig7.png>]
+<./Images//fig3.png, id=45, 462.528pt x 346.896pt>
 File: ./Images//fig3.png Graphic file (type png)
 <use ./Images//fig3.png>
-Package pdftex.def Info: ./Images//fig3.png  used on input line 32.
+Package pdftex.def Info: ./Images//fig3.png  used on input line 56.
 (pdftex.def)             Requested size: 346.89731pt x 260.18723pt.
-)
-(./references.tex [6 <./Images//fig3.png>]
+) (./references.tex
+[7 <./Images//fig3.png>]
 
 Package biblatex Warning: Split bibliography detected.
 (biblatex)                Many simple split bibliography setups with
@@ -609,9 +652,19 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
 
-Overfull \hbox (6.07584pt too wide) in paragraph at lines 12--12
-[]\OT1/cmr/m/n/10 D. Cur-tis Howard, \OT1/cmr/m/it/10 Or-bital Me-chan-ics for 
-En-gi-neer-ing Stu-dents\OT1/cmr/m/n/10 . El-se-vier Butterworth-Heinemann,
+Package biblatex Warning: Split bibliography detected.
+(biblatex)                Many simple split bibliography setups with
+(biblatex)                non-overlapping bibliographies benefit from
+(biblatex)                setting 'defernumbers=true'.
+(biblatex)                See the documentation for details.
+(biblatex)                This warning can be suppressed with
+(biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
+
+
+Overfull \hbox (0.87631pt too wide) in paragraph at lines 13--13
+[]\OT1/ptm/m/n/10 D. Cur-tis Howard, \OT1/ptm/m/it/10 Or-bital Me-chan-ics for 
+En-gi-neer-ing Stu-dents \OT1/ptm/m/n/10 (El-se-vier Butterworth-Heinemann, 200
+5),
  []
 
 
@@ -632,33 +685,32 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                This warning can be suppressed with
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
-) [7] (pdf/NBody.aux)
+) [8] (pdf/NBody.aux)
 Package logreq Info: Writing requests to 'NBody.run.xml'.
 \openout1 = `NBody.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13357 strings out of 478238
- 278217 string characters out of 5850456
- 975455 words of memory out of 5000000
- 31470 multiletter control sequences out of 15000+600000
- 473011 words of font info for 41 fonts, out of 8000000 for 9000
+ 13402 strings out of 478238
+ 278865 string characters out of 5850456
+ 979339 words of memory out of 5000000
+ 31499 multiletter control sequences out of 15000+600000
+ 483980 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,20n,82p,1061b,1276s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10
-.pfb>
-Output written on pdf/NBody.pdf (8 pages, 241848 bytes).
+ 79i,20n,82p,738b,1512s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/
+urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><
+/usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/f
+onts/type1/urw/times/utmri8a.pfb>
+Output written on pdf/NBody.pdf (9 pages, 284478 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

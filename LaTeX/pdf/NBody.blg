@@ -1,17 +1,17 @@
 [1] Config.pm:307> INFO - This is Biber 2.17
 [2] Config.pm:310> INFO - Logfile is 'pdf/NBody.blg'
-[323] biber:340> INFO - === Fri Aug 19, 2022, 08:00:13
-[379] Biber.pm:418> INFO - Reading 'pdf/NBody.bcf'
-[665] Biber.pm:972> INFO - Found 8 citekeys in bib section 0
-[726] Biber.pm:4383> INFO - Processing section 0
-[766] Biber.pm:4574> INFO - Looking for bibtex file 'references.bib' for section 0
-[769] bibtex.pm:1713> INFO - LaTeX decoding ...
-[809] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
-[1475] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1476] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1476] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1476] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[1519] bbl.pm:654> INFO - Writing 'pdf/NBody.bbl' with encoding 'UTF-8'
-[1555] bbl.pm:757> INFO - Output to pdf/NBody.bbl
-[1555] Biber.pm:130> WARN - ISBN '978-0-08-202233-0' in entry 'orbital_mechanics_4ed' is invalid - run biber with '--validate_datamodel' for details.
-[1556] Biber.pm:132> INFO - WARNINGS: 1
+[304] biber:340> INFO - === Fri Aug 19, 2022, 23:17:00
+[356] Biber.pm:418> INFO - Reading 'pdf/NBody.bcf'
+[633] Biber.pm:972> INFO - Found 8 citekeys in bib section 0
+[693] Biber.pm:4383> INFO - Processing section 0
+[731] Biber.pm:4574> INFO - Looking for bibtex file 'references.bib' for section 0
+[734] bibtex.pm:1713> INFO - LaTeX decoding ...
+[760] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
+[1045] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1045] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1045] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1045] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[1081] bbl.pm:654> INFO - Writing 'pdf/NBody.bbl' with encoding 'UTF-8'
+[1089] bbl.pm:757> INFO - Output to pdf/NBody.bbl
+[1090] Biber.pm:130> WARN - ISBN '978-0-08-202233-0' in entry 'orbital_mechanics_4ed' is invalid - run biber with '--validate_datamodel' for details.
+[1090] Biber.pm:132> INFO - WARNINGS: 1
