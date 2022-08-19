@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.integrate import odeint
 from matplotlib.animation import FuncAnimation
+import sys
 
 #plt.style.use('dark_background')
 
@@ -31,8 +32,8 @@ fig, ax = plt.subplots(1, 1)
 #  VX1 (4), VY1 (5), VX2 (6), VY2 (7)]
 y0 = np.concatenate((r10, r20, v10, v20))
 
-ax.set_xlim(-2000, 2000)
-ax.set_ylim(-2000, 2000)
+ax.set_xlim(-1000, 4000)
+ax.set_ylim(0, 2000)
 
 ax.set_aspect('equal')
 
