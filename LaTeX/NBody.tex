@@ -1,17 +1,19 @@
 \documentclass{article}
 \input{package.tex} % Package file
 
-\geometry{a4paper, total={6in, 8in}, top=20mm}
+\geometry{a4paper, total={6in, 8in}, top=20mm, bottom=20mm}
+%\addtocontents{toc}{\protect\thispagestyle{empty}}
+%\pagenumbering{gobble}
 
 \begin{document}
 
     \input{titlepage}
     \tableofcontents
     \newpage
+    \input{acknowledgement}
     \input{abstract}
     \input{introduction}
     \input{results}
     \input{references}
-
 
 \end{document}

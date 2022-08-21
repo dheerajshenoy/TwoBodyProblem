@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+
 import numpy as np
 from scipy.integrate import odeint
 from matplotlib.animation import FuncAnimation
@@ -8,42 +9,33 @@ from matplotlib.animation import FuncAnimation
 G = 6.67259e-20  # (km**3/kg/s**2)
 
 # time array
-time = np.arange(0, 480, 0.05)
-
+time = np.arange(0, 480, 0.25)
 fig, ax = plt.subplots(1, 1)
 
 m1 = 1e26  # mass (kg)
-r10 = np.array([10, 0])  # initial position (km)
-v10 = np.array([20, 0])  # initial velocity (km/s)
+r10 = np.array([0, 0])  # initial position (km)
+v10 = np.array([0, 0])  # initial velocity (km/s)
 radius1 = 25
 
 # body m2 initial conditions
 m2 = 1e26  # mass (kg)
-r20 = np.array([1000, 0])  # initial position (km)
-#v20 = np.array([-30, -20])  # initial velocity (km/s)
-v20 = np.array([60, 60])  # initial velocity (km/s)
+r20 = np.array([1000, 1000])  # initial position (km)
+v20 = np.array([-30, 10])  # initial velocity (km/s)
 radius2 = 25
+ax.set_xlim(-1500, 1500)
+ax.set_ylim(-500, 1500)
 
-ax.set_xlim(-2000, 2000)
-ax.set_ylim(-2000, 2000)
-
-# [X1 (0), Y1 (1), X2 (2), Y2 (3), 
-#  VX1 (4), VY1 (5), VX2 (6), VY2 (7)]
-y0 = np.concatenate((r10, v10))
+# [X1 (0), Y1 (1), VX1 (2), VY1 (3)]
+y0 = np.concatenate((r20, v20))
 
 def two_body_eqm(y, t, G, m1, m2):
 
     r_mag = np.linalg.norm(y[:2])
     r_c = np.power(r_mag, 3)
 
-
-
     mu = G * (m1 + m2)
 
     c0 = y[2:4]
-
-    #c1 = (y[2:4] - y[:2]) * k1
-    #c2 = (y[:2] - y[2:4]) * k2
     c1 = -mu / r_c * y[:2]
 
     return np.concatenate((c0, c1))
@@ -64,8 +56,7 @@ for ys in y:
 
 line1, = ax.plot([], [], lw=1, color='blue', alpha=0.75 )
 point1 = plt.Circle((0, 0), radius=radius1, color='blue', label = f"m1 = {m1} (kg)")
-
-point2 = plt.Circle((0, 0), radius=radius2, color='green', label = f"m2 = {m2} (kg)")
+point2 = plt.Circle((0, 0), radius=radius2, color='red', label = f"m2 = {m2} (kg)")
 
 plt.title(f"Relative motion of m_1 with respect to m_2\nv1 = {v10} (km/s) v2 = {v20} (km/s)")
 

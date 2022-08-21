@@ -13,17 +13,15 @@ G = 6.67259e-20  # (km**3/kg/s**2)
 # time array
 time = np.arange(0, 480, 0.2)
 
-# body m1 initial conditions
 m1 = 1e26  # mass (kg)
-r10 = np.array([1000, 0])  # initial position (km)
-v10 = np.array([100, 45])  # initial velocity (km/s)
+r10 = np.array([500, 100])  # initial position (km)
+v10 = np.array([10, 10])  # initial velocity (km/s)
 radius1 = 25
 
 # body m2 initial conditions
 m2 = 1e26  # mass (kg)
-r20 = np.array([0, 0])  # initial position (km)
-#v20 = np.array([-30, -20])  # initial velocity (km/s)
-v20 = np.array([-40, 40])  # initial velocity (km/s)
+r20 = np.array([100, 1000])  # initial position (km)
+v20 = np.array([-70, 10])  # initial velocity (km/s)
 radius2 = 25
 
 fig, ax = plt.subplots(1, 1)
@@ -33,7 +31,7 @@ fig, ax = plt.subplots(1, 1)
 y0 = np.concatenate((r10, r20, v10, v20))
 
 ax.set_xlim(-1000, 4000)
-ax.set_ylim(0, 2000)
+ax.set_ylim(0, 4000)
 
 ax.set_aspect('equal')
 
