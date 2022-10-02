@@ -1,15 +1,27 @@
 \documentclass{article}
 \input{package.tex} % Package file
+\geometry{a4paper, total={6in, 10in}, top=15mm, bottom=15mm}
 
-\geometry{a4paper, total={6in, 8in}, top=20mm, bottom=20mm}
+
+\newcommand{\drawBorder}
+{
+\begin{tikzpicture}
+    [remember picture, overlay] \draw[line width = 1pt] ($(current page.north west) + (0.35in, -0.35in)$) rectangle ($(current page.south east) + (-0.35in, 0.35in)$);
+\end{tikzpicture}
+}
+
 %\addtocontents{toc}{\protect\thispagestyle{empty}}
 %\pagenumbering{gobble}
+
 
 \begin{document}
 
     \input{titlepage}
+
+    \drawBorder
     \tableofcontents
     \newpage
+
     \input{acknowledgement}
     \input{abstract}
     \input{introduction}
